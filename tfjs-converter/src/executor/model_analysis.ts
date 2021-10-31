@@ -158,14 +158,14 @@ const HASH_TABLE_OPS = [
   'LookupTableFind', 'LookupTableFindV2', 'LookupTableSize', 'LookupTableSizeV2'
 ];
 
-export function isControlFlow(node: Node) {
-  return CONTROL_FLOW_OPS.indexOf(node.op) >= 0;
+export function isControlFlow(in: Node) {
+  return CONTROL_FLOW_OPS.indexOf(in.op) >= 0;
 }
 
-export function isDynamicShape(node: Node) {
-  return DYNAMIC_SHAPE_OPS.indexOf(node.op) >= 0;
+export function isDynamicShape(in: Node) {
+  return DYNAMIC_SHAPE_OPS.indexOf(in.op) >= 0;
 }
 
-export function isHashTable(node: Node) {
-  return HASH_TABLE_OPS.indexOf(node.op) >= 0;
+export function isHashTable(in: Node) {
+  return HASH_TABLE_OPS.indexOf(in.op) >= 0;
 }
