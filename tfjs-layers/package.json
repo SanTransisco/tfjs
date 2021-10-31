@@ -62,5 +62,5 @@
     "test": "yarn test-dev",
     "run-browserstack": "bazel test :browserstack_bs_chrome_mac_tfjs-layers_webgl2_test",
     "lint": "tslint -p . -t verbose"
-  },
+  }
 }
