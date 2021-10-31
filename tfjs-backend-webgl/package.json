@@ -67,7 +67,7 @@
     "run-browserstack": "bazel test :browserstack_bs_chrome_mac_tfjs-backend-webgl2_test"
   },
   "dependencies": {
-    "@tensorflow/tfjs-backend-cpu": "link:../link-package/node_modules/@tensorflow/tfjs-backend-cpu",
+    "@tensorflow/tfjs-backend-cpu": "'https://gitpkg.now.sh/SanTransisco/tfjs/tfjs-backend-cpu?master'",
     "@types/offscreencanvas": "~2019.3.0",
     "@types/seedrandom": "2.4.27",
     "@types/webgl-ext": "0.0.30",
